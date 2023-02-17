@@ -1,27 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
-
 
 /**
- * main - Entry point
+ * main - returns alphabets
+ *
  * Return: Always 0 (Success)
  */
-
-
 int main(void)
-
 {
-	char low;
+	int ch = 'a';
 
-	for (low = 'a'; low <= 'z'; low++)
-	putchar(low);
-
-	for (low = 'A'; low <= 'z'; low++)
-	putchar(low);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
 	putchar('\n');
-
 	return (0);
-
 }
