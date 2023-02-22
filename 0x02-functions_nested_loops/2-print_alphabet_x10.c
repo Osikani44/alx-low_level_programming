@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-	print_alphabet_x10(int i; int j;);
+	print_alphabet_x10();
+		int i;
+		 int j;
 
-	for (j = i; - <= 10; i++)
+	for (j = i; <= 10; i++)
 	{
 		for (j = 97; j <= 122; j++)
 		{
