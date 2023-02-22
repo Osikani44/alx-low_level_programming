@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - Prints the alphabet 10 times
+ * main - print_alpahbet_x10
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	print_alphabet_x10();
+	print_alphabet_x10(0);
 		int i;
 		 int j;
 
