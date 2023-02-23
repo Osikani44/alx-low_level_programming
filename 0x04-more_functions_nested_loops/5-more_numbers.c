@@ -2,6 +2,7 @@
 
 /**
  * more_numbers - prints 10 times the number from 0 - 14
+ * Return: 0
  */
 
 void more_numbers(void)
