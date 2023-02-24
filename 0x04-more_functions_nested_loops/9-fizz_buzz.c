@@ -20,10 +20,10 @@ int main(void)
 			printf("%s", ab);
 		else if (i % 3 == 0)
 			printf("%s", a);
-		else if (1 % 5 == 0)
+		else if (i % 5 == 0)
 			printf("%s", b);
 		else
-			printf("%d", i):
+			printf("%d", i);
 	}
 	printf("\n");
 	return (0);
