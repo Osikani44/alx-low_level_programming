@@ -1,29 +1,37 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints numbers from 1 to 100
- * Return: 0
+ * main - Prints a Fizz
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
-	char a[] = "Fizz";
-	char b[] = "Buzz";
-	char ab[] = "FizzBuzz";
-
-	for (i = 1; i <= 100; i++)
+	int x;
+	
+	for (x = 1; x <= 100; x++)
 	{
-		if (i == 100)
-			printf("%s", b);
-		else if ((i % 3 == 0) && (i % s == 0))
-			printf("%s", ab);
-		else if (i % 3 == 0)
-			printf("%s", a);
-		else if (i % 5 == 0)
-			printf("%s", b);
-		else
-			printf("%d", i);
+	if ((x % 3 == 0) && (x % 5 == 0))
+	{
+	printf("FizzBuzz");
+	}
+	else if (x % 3 == 0)
+	{
+	printf("Fizz");
+	}
+	else if (x % 5 == 0)
+	{
+	printf("Buzz");
+	}
+	else
+	{
+	printf("%d", x);
+	}
+	if (x != 100)
+	{
+	printf(" ");
+	}
 	}
 	printf("\n");
 	return (0);
